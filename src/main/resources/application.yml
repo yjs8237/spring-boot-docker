@@ -1,2 +1,9 @@
 server:
   port: 8080
+logging:
+  file:
+    name: test.log
+    path: logs/
+  level:
+    root: info
+
